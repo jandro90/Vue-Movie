@@ -33,7 +33,8 @@ const routes = [
         component: () => import(/* webpackChunkName: "about" */'@/views/nested/AboutProject.vue'),
       },
     ]
-  }
+  },
+  { path: '/:pathMatch(.*)*', name: 'NotFound', component: () =>  import(/* webpackChunkName: "login" */ '@/views/LoginView.vue')},
 ]
 
 const router = createRouter({

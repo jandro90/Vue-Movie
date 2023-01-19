@@ -51,6 +51,9 @@
                         is NOT logged in, to avoid enter in any path of the
                         application.
                     </li>
+                    <li>
+                        API: <a href="https://www.tvmaze.com/api" target="_blank"> TV Maze</a>
+                    </li>
                 </ul>
             </ul>
         </div>
